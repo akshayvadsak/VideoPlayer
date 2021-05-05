@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@color/bg_color">
+
+
+    <ImageView
+
+    android:layout_width="140dp"
+    android:layout_height="140dp"
+    android:src="@drawable/icon_private"
+    tools:ignore="ContentDescription"/>
+
+
+    <TextView
+        android:id="@+id/tvMessage"
+        style="@style/PinStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center_horizontal"
+        android:paddingBottom="7dp"
+        android:paddingTop="2dp">
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <com.jv.mxvideoplayer.mxv.videoplayer.pinlock.PinImageView
+                android:id="@+id/pe0"
+                style="@style/PinEntry"/>
+
+            <View
+                android:layout_width="30dp"
+                android:layout_height="1.5dp"
+                android:background="@color/hedar_color"></View>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <com.jv.mxvideoplayer.mxv.videoplayer.pinlock.PinImageView
+                android:id="@+id/pe1"
+                style="@style/PinEntry"/>
+
+            <View
+                android:layout_width="30dp"
+                android:layout_height="1.5dp"
+                android:background="@color/hedar_color"></View>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <com.jv.mxvideoplayer.mxv.videoplayer.pinlock.PinImageView
+                android:id="@+id/pe2"
+                style="@style/PinEntry"/>
+
+            <View
+                android:layout_width="30dp"
+                android:layout_height="1.5dp"
+                android:background="@color/hedar_color"></View>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <com.jv.mxvideoplayer.mxv.videoplayer.pinlock.PinImageView
+                android:id="@+id/pe3"
+                style="@style/PinEntry"/>
+
+            <View
+                android:layout_width="30dp"
+                android:layout_height="1.5dp"
+                android:background="@color/hedar_color"></View>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

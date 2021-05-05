@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/radius1">
+
+        <TextView
+            android:id="@+id/textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="20dp"
+            android:text="Do You Want To Exit??"
+            android:textColor="#fff"
+            android:textSize="20dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fl_adplaceholder"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/yes"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/radius3"
+                android:padding="5dp"
+                android:text="Yes"
+                android:textAlignment="center"
+                android:textColor="#353535"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/rate"
+
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/radius3"
+                android:padding="5dp"
+                android:text="Rate"
+                android:textAlignment="center"
+                android:textColor="#353535"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/no"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity=""
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/radius3"
+                android:padding="5dp"
+                android:text="No"
+                android:textAlignment="center"
+                android:textColor="#353535"
+                android:textSize="20dp"
+                tools:ignore="RtlCompat" />
+
+        </RelativeLayout>
+
+        <FrameLayout
+            android:id="@+id/fl_adplaceholder"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textview"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="2dp">
+<!--            <com.facebook.ads.NativeAdLayout-->
+<!--                android:id="@+id/native_ad_container"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="300dp"-->
+<!--                android:orientation="vertical" />-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text=""
+                android:textColor="#fff"
+                android:textSize="15dp" />
+
+        </FrameLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

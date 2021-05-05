@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/dialog_title_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="@string/rename" />
+
+    <EditText
+        android:id="@+id/txtRename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="8dp"
+        android:background="@android:color/transparent"
+        android:drawableBottom="@drawable/line"
+        android:drawablePadding="3dp"
+        android:hint="@string/rename_hint"
+        android:maxLines="3"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:gravity="end|center_vertical"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/txtDialogCancel"
+            style="@style/dialog_button_style"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:text="@string/cancel" />
+
+        <TextView
+            android:id="@+id/txtDialogConfirm"
+            style="@style/dialog_button_style"
+            android:layout_width="wrap_content"
+            android:textColor="@color/black"
+            android:text="@string/confirm"/>
+
+    </LinearLayout>
+
+</LinearLayout>

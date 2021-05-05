@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:gravity="bottom|center"
+    android:orientation="vertical"
+    android:background="@color/black"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+
+    <ImageView
+        android:layout_margin="15dp"
+        android:id="@+id/imgUserName"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:gravity="center_horizontal"
+        android:src="@drawable/mxlogo"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="#fff"
+        android:textAllCaps="true"
+        android:text="@string/app_name"></TextView>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#515151"
+        android:layout_marginTop="10dp"
+        ></View>
+
+
+
+</LinearLayout>

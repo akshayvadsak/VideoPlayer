@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/dialog_title_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:text="@string/delete" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtWarning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingMultiplier="1.2"
+            android:text="@string/confirm_delete_folder"
+            android:textColor="@color/video_sub_font_color"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/txtFolders"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:text="@string/folders"
+            android:textSize="13sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:gravity="end|center_vertical"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/txtDialogCancel"
+            style="@style/dialog_button_style"
+            android:layout_width="wrap_content"
+            android:textColor="@color/hedar_color"
+            android:text="@string/cancel" />
+
+        <TextView
+            android:id="@+id/txtDialogConfirm"
+            style="@style/dialog_button_style"
+            android:layout_width="wrap_content"
+            android:textColor="@color/hedar_color"
+            android:text="@string/confirm" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:checked="true"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_theme"
+            android:checked="false"
+            android:icon="@drawable/theme_icon"
+            android:title="Gradient Theme (New)" />
+<!--        <item-->
+<!--            android:id="@+id/nav_Download"-->
+<!--            android:checked="false"-->
+<!--            android:icon="@drawable/ic_download_sidemenu"-->
+<!--            android:title="All Video Download (New)" />-->
+
+
+        <item
+            android:id="@+id/nav_privacy"
+            android:checked="false"
+            android:icon="@drawable/ic_d_private"
+            android:title="Protected Videos" />
+
+        <item
+            android:id="@+id/nav_setting"
+            android:checked="false"
+            android:icon="@drawable/ic_d_setting"
+            android:title="Setting" />
+        <item
+            android:id="@+id/nav_policy"
+            android:checked="false"
+            android:icon="@drawable/ic_policy"
+            android:title="Legal Policy" />
+        <item
+            android:id="@+id/nav_like"
+            android:checked="false"
+            android:icon="@drawable/ic_d_like"
+            android:title="Rate Us" />
+
+        <item
+            android:id="@+id/nav_share"
+            android:checked="false"
+            android:icon="@drawable/ic_d_share"
+            android:title="Share App" />
+
+        <item
+            android:id="@+id/nav_more"
+            android:checked="false"
+            android:icon="@drawable/ic_more"
+            android:title="More App" />
+        <item
+            android:id="@+id/nav_exit"
+            android:checked="false"
+            android:icon="@drawable/ic_exit"
+            android:title="Exit App" />
+
+
+    </group>
+</menu>

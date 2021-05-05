@@ -1,0 +1,66 @@
+<resources>
+
+    <declare-styleable name="FastScrollRecyclerView">
+        <attr name="fastScrollThumbColor" format="reference|color" />
+        <attr name="fastScrollTrackColor" format="reference|color" />
+        <attr name="fastScrollPopupBgColor" format="reference|color" />
+        <attr name="fastScrollPopupTextColor" format="reference|color" />
+        <attr name="fastScrollPopupTextSize" format="reference|dimension" />
+        <attr name="fastScrollPopupBackgroundSize" format="reference|dimension" />
+        <attr name="fastScrollPopupPosition" format="enum">
+            <enum name="adjacent" value="0" />
+            <enum name="center" value="1" />
+        </attr>
+        <attr name="fastScrollAutoHide" format="reference|boolean" />
+        <attr name="fastScrollAutoHideDelay" format="reference|integer" />
+        <attr name="fastScrollThumbInactiveColor" format="reference|boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="MaxHeightScrollView">
+        <attr name="maxHeight" format="dimension" />
+    </declare-styleable>
+
+    <!--ExoPlayer-->
+    <declare-styleable name="AspectRatioFrameLayout">
+        <attr name="resize_mode" />
+    </declare-styleable>
+    <attr name="resize_mode" format="enum">
+        <enum name="fit" value="0"/>
+        <enum name="fixed_width" value="1"/>
+        <enum name="fixed_height" value="2"/>
+        <enum name="fill" value="3"/>
+        <enum name="zoom" value="4"/>
+    </attr>
+
+
+    <declare-styleable name="DefaultTimeBar">
+        <attr name="bar_height" format="dimension" />
+        <attr name="touch_target_height" format="dimension" />
+        <attr name="ad_marker_width" format="dimension" />
+        <attr name="scrubber_enabled_size" format="dimension" />
+        <attr name="scrubber_disabled_size" format="dimension" />
+        <attr name="scrubber_dragged_size" format="dimension" />
+        <attr name="played_color" format="color" />
+        <attr name="scrubber_color" format="color" />
+        <attr name="buffered_color" format="color" />
+        <attr name="unplayed_color" format="color" />
+        <attr name="ad_marker_color" format="color" />
+        <attr name="played_ad_marker_color" format="color" />
+    </declare-styleable>
+
+
+    <declare-styleable name="TintableImageView">
+        <attr name="tint1" format="reference|color" />
+    </declare-styleable>
+
+    <!--<declare-styleable name="CustomTextView">-->
+        <!--<attr name="fontStyle" format="enum">-->
+            <!--<enum name="DEFAULT" value="0" />-->
+            <!--<enum name="DEFAULT_BOLD" value="1" />-->
+            <!--<enum name="SANS_SERIF" value="2" />-->
+            <!--<enum name="SERIF" value="3" />-->
+            <!--<enum name="MONOSPACE" value="4" />-->
+        <!--</attr>-->
+    <!--</declare-styleable>-->
+
+</resources>

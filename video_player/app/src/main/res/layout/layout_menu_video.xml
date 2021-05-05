@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingBottom="8dp"
+    app:layout_behavior="@string/bottom_sheet_behavior">
+
+
+    <TextView
+        android:id="@+id/txtDialogTitle"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:ellipsize="end"
+        android:gravity="start|center"
+        android:maxLines="1"
+        android:textColor="@color/bg_color"
+        android:text="@string/title"
+        android:textSize="16sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:background="#dadada">
+
+    </View>
+
+    <LinearLayout
+        android:id="@+id/llDialogPrivate"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="?android:attr/listChoiceBackgroundIndicator"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingEnd="16dp"
+        android:paddingStart="16dp"
+        tools:ignore="UseCompoundDrawables">
+
+        <com.jv.mxvideoplayer.mxv.videoplayer.CustomClass.TintableImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:tint="@color/black"
+            android:src="@drawable/ic_private"
+            tools:ignore="ContentDescription"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:textColor="@color/black"
+            android:text="@string/lock_in_private_folder"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llDialogDelete"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="?android:attr/listChoiceBackgroundIndicator"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingEnd="16dp"
+        android:paddingStart="16dp"
+        tools:ignore="UseCompoundDrawables">
+
+        <com.jv.mxvideoplayer.mxv.videoplayer.CustomClass.TintableImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:tint="@color/black"
+            android:src="@drawable/ic_delete"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:textColor="@color/black"
+            android:text="@string/delete"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llDialogShare"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="?android:attr/listChoiceBackgroundIndicator"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingEnd="16dp"
+        android:paddingStart="16dp"
+        tools:ignore="UseCompoundDrawables">
+
+        <com.jv.mxvideoplayer.mxv.videoplayer.CustomClass.TintableImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:tint="@color/black"
+            android:src="@drawable/ic_share"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:textColor="@color/black"
+            android:text="@string/share"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llDialogRename"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="?android:attr/listChoiceBackgroundIndicator"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingEnd="16dp"
+        android:paddingStart="16dp"
+        tools:ignore="UseCompoundDrawables">
+
+        <com.jv.mxvideoplayer.mxv.videoplayer.CustomClass.TintableImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:tint="@color/black"
+            android:src="@drawable/ic_rename"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:textColor="@color/black"
+            android:text="@string/rename"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llDialogProperties"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="?android:attr/listChoiceBackgroundIndicator"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingEnd="16dp"
+        android:paddingStart="16dp"
+        tools:ignore="UseCompoundDrawables">
+
+        <com.jv.mxvideoplayer.mxv.videoplayer.CustomClass.TintableImageView
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:tint="@color/black"
+            android:src="@drawable/ic_detail"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:textColor="@color/black"
+            android:text="@string/properties"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</LinearLayout>

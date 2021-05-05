@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/dialog_title_style"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subtitle_text" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:id="@+id/rgSubtitleText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rbDefault"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/text_default"
+                android:theme="@style/customRadio" />
+
+            <RadioButton
+                android:id="@+id/rbDefaultBold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_default_bold"
+                android:theme="@style/customRadio" />
+
+            <RadioButton
+                android:id="@+id/rbSansSerif"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_sans_serif"
+                android:theme="@style/customRadio" />
+
+            <RadioButton
+                android:id="@+id/rbSerif"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_serif"
+                android:theme="@style/customRadio" />
+
+            <RadioButton
+                android:id="@+id/rbMonospace"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/text_monospace"
+                android:theme="@style/customRadio" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:gravity="end|center_vertical"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/txtDialogCancel"
+            style="@style/dialog_button_style"
+            android:layout_width="wrap_content"
+            android:textColor="@color/hedar_color"
+            android:text="@string/cancel" />
+
+        <TextView
+            android:id="@+id/txtDialogConfirm"
+            style="@style/dialog_button_style"
+            android:layout_width="wrap_content"
+            android:textColor="@color/hedar_color"
+            android:text="@string/confirm" />
+
+    </LinearLayout>
+
+</LinearLayout>

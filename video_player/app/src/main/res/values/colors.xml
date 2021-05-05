@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#33000000</color>
+    <color name="colorPrimaryDark">#33000000</color>
+    <color name="colorAccent">#33000000</color>
+    <color name="amj">#33000000</color>
+    <color name="hedar_color">#B01B1B1B</color>
+    <color name="bg_color">#191919</color>
+    <color name="black_translucent">#63000000</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="option_font_color">#cecece</color>
+    <color name="titileFontColor">#ffffff</color>
+    <color name="titile_setting_FontColor">#45ffffff</color>
+    <color name="gray">#10000000</color>
+    <color name="theme">#e1e1e1</color>
+    <color name="theme_alpha">#323543ff</color>
+    <color name="popup_text">#333333</color>
+    <color name="item_text">#565656</color>
+    <color name="item_title_text">#2d2d2d</color>
+    <color name="control_background">#96000000</color>
+    <color name="dialog_background">#64000000</color>
+    <color name="setting_bold_text">#363636</color>
+    <color name="setting_normal_text">#80FFFFFF</color>
+    <color name="setting_normal_text1">#96000000</color>
+    <!--****  Video List Layout  ****-->
+    <color name="video_sub_font_color">#fff</color>
+
+    <color name="video_setting_font_color">#fff</color>
+    <!--****  Private Layout  ****-->
+
+    <color name="private_number_part_color">#131313</color>
+
+    <!--Spot Dialog BG Color-->
+    <color name="loading_dialog_bg_color">#96000000</color>
+
+
+</resources>
